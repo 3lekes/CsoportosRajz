@@ -9,4 +9,3 @@ import turtle
 #Test:
 
 #Izzok:
-i=0
