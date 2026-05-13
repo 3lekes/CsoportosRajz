@@ -2,25 +2,22 @@
 #Elekes David - lampatest
 #Dóczy Barnabás lámpatalp
 
-
 import turtle
 turtle.speed(11)
 
 #Talp:
-turtle.teleport(-25,0)
+turtle.teleport(-25,-10)
 turtle.color("grey")
 turtle.fillcolor("grey")
 turtle.begin_fill()
 k=0
 while k<2:
-    turtle.forward(30)
+    turtle.forward(52.5)
     turtle.right(90)
     turtle.forward(200)
     turtle.right(90)
     k+=1
 turtle.end_fill()
-
-
 
 #Test:
 turtle.teleport(-62.5, -25)
