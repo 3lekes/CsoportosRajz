@@ -3,19 +3,20 @@
 #Dóczy Barnabás lámpatalp
 
 import turtle
+turtle.speed(11)
 
 #Talp:
 
 #Test:
-turtle.teleport(-50, 0)
+turtle.teleport(-62.5, -25)
 turtle.color("black")
 turtle.fillcolor("black")
 turtle.begin_fill()
 j=0
 while j<2:
-    turtle.forward(100)
+    turtle.forward(125)
     turtle.left(90)
-    turtle.forward(225)
+    turtle.forward(323)
     turtle.left(90)
     j+=1
 turtle.end_fill()
@@ -29,11 +30,11 @@ while i<3:
     turtle.fillcolor(colors[i%3])
     turtle.color(colors[i%3])
     turtle.begin_fill()
-    turtle.circle(50)
+    turtle.circle(35)
     turtle.end_fill()
     turtle.penup()
     turtle.setheading(90)
-    turtle.forward(125)
+    turtle.forward(100)
     turtle.pendown()
     i+=1
 
